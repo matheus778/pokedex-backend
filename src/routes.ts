@@ -2,7 +2,8 @@ import { Router } from 'express';
 const routes = Router();
 import PokemonController from './controller/PokemonController';
 
-routes.get('/listar', PokemonController.listar);
-routes.post('/cadastrar', PokemonController.cadastrar);
+routes.get('/pokemons', PokemonController.listar);
+routes.post('/pokemons', PokemonController.cadastrar);
+routes.put('/pokemons/:id', PokemonController.update);
 
 export default routes;

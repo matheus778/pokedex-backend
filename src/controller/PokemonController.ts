@@ -18,5 +18,19 @@ export default {
       message = "Ops, não foi possivel salvar"
     }
    res.status(201).send({message: message})
+  },
+
+   async update(req:Request, res:Response) {
+    let message:string;
+    try {
+      const {id} = req.params
+      await knex('pokemons')
+      .update(req.body)
+      .where({id})
+      message = "Pokemon atualizado com sucesso";
+    }
+    catch(error) {
+      message = "não foi possivel atualizar";
+    }
   }
 }
