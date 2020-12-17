@@ -15,7 +15,7 @@
 # para rodar em sua maquina
 1.  rode em seu terminal `git clone https://github.com/matheus778/pokedex-backend.git`
 
-2. entre no diretorio e execute `yarn add` ou `npm install`
+2. entre no diretorio e execute `yarn` ou `npm install`
 
 3. depois `npx tsc `
 
