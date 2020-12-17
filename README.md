@@ -46,8 +46,8 @@ retorna todos os pokemons cadastrados na base de dados
 
 
 - **put**  localhost:3333/pokemons  <br>
-para atualizar um dado de um pokemon ja cadastrado,
-basta enviar na requisição os campos a serem atuzlizados e o id na url 
+para atualizar um dado de um pokemon já cadastrado,
+basta enviar na requisição os campos a serem atualizados e o id na url 
 exemplo: `localhost:3333/pokemons/1`
 
 `{
