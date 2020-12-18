@@ -10,14 +10,11 @@
 
 
 ## para rodar em sua maquina
-1.  rode em seu terminal `git clone https://github.com/matheus778/pokedex-backend.git`
+1.  rode em seu terminal `git clone https://github.com/matheus778/pokedex-backend.git`;
 
-2. entre no diretorio e execute `yarn` ou `npm install`
+2. entre no diretorio e execute `yarn` ou `npm install`;
 
-3. depois `npx tsc `
-
-4. sera gerada a pasta de distribuição "dist" então por ultimo rode: `node ./dist/src/app.js`
-
+3. depois `npm run dev` ou `yarn dev` para subir o servidor;
 ------------
 
 
