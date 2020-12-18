@@ -1,10 +1,7 @@
-### Pokedex-backend
+# Pokedex-backend
+#### API em node  ultilizando os principais verbos HTTP
 
-- API em node  ultilizando os principais verbos HTTP
-
-
-# Tecnologias ultilizadas
-
+## Tecnologias ultilizadas
 - node Js 
 - express
 - typescript
@@ -12,7 +9,7 @@
 - sqlite3
 
 
-# para rodar em sua maquina
+## para rodar em sua maquina
 1.  rode em seu terminal `git clone https://github.com/matheus778/pokedex-backend.git`
 
 2. entre no diretorio e execute `yarn` ou `npm install`
@@ -60,7 +57,6 @@ exemplo: `localhost:3333/pokemons/1`
 
 ------------
 
+- **delete**  basta fazer uma requisição com o id do pokemon a ser deletado, exemplo: `localhost:3333/pokemon/1`
 
-
-- **delete**  ainda vai ser desenvolvido
 
