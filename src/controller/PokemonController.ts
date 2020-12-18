@@ -32,5 +32,20 @@ export default {
     catch(error) {
       message = "não foi possivel atualizar";
     }
+  },
+
+  async deletar(req:Request, res:Response) {
+    const { id } = req.params;
+    let message: string;
+    try {
+    await knex('pokemons')
+      .where('id', id)
+      .del();
+      message = 'pokemon deletado com sucesso';
+    }
+    catch(error) {
+      message = 'não foi possivel deletar';
+    }
+    res.send({message: message})
   }
 }
