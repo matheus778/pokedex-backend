@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "matheus <matheuzv777@gmail.com>",
   "license": "MIT",
+  "scripts": {
+  "dev": "npx ts-node --files --transpile-only ./src/app.ts"
+  },
   "devDependencies": {
     "@types/cors": "^2.8.9",
     "@types/express": "^4.17.9",
